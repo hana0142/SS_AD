@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "hana",
+    "password": "hana",
+    "database": "db_eyecare2",
+    "host": "ls-bf06f82766494bf2bf8a94264bb5198853fe0500.c3mszivzobrs.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
+
